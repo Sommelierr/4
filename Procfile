@@ -1,1 +1,1 @@
-web: java -jar target/4v2-2.jar
+web: java $JAVA_OPTS -jar target/4v2-2.jar -Dserver.port=$PORT
